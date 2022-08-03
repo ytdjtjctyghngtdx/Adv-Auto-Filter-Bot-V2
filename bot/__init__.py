@@ -11,15 +11,15 @@ from logging.handlers import RotatingFileHandler
 from .translation import Translation
 
 # Change Accordingly While Deploying To A VPS
-APP_ID = int(os.environ.get("APP_ID"))
+APP_ID = 13820773
 
-API_HASH = os.environ.get("API_HASH")
+API_HASH = 14dd075422f501a91407231fc98af817
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = 5375408785:AAFEK3MBMF4YjDvF-yeNgH7zCcsvxvltA3c
 
-DB_URI = os.environ.get("DB_URI")
+DB_URI = mongodb+srv://ishan:ishan@cluster0.de5wk.mongodb.net/?retryWrites=true&w=majority
 
-USER_SESSION = os.environ.get("USER_SESSION")
+USER_SESSION = BQAjXCwapG2TqnvPp9gmxvSOh8aj7-nLUVu6edSIwVoNXZTlQTO1Kii-LHuW5RobLSyLH4tByVm2e7cLUHm8dWu_rMsn4H43lLBIG1yz1aWM-WPxFAuCtEUaHbAm0EK8N26RSkzzQlGHn95KPfFcWl0D4y9g77t49ZpgaRGpgoKE9d9O_L9TX8mNVZbq6Y1jT40dwF7Nw0u5BozDtGV2i1cyYRkGZLRhVf56ugAZlnVHwTMgn2WBwEjYaWzp8BvYtE7OP7ZGbqHWNtmiOmjJ7Yg5R2WCFcUonUDzLf9on7dyqSEH9lJhGRwoFTWOzO5EXtTaqPt-KYIWlMUUsACoCaJLAAAAAT4wwvYA
 
 VERIFY = {}
 
